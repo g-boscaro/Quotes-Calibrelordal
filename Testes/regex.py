@@ -12,7 +12,7 @@ num_quote = re.search(r'([0-9]+)', quote).group()
 #print(num_quote)
 print("Numero do quote:", num_quote)
 
-texto_quote = re.search(r'"([^\"]*)"', quote).group(1)
+txt_quote = re.search(r'"([^\"]*)"', quote).group(1)
 #print(texto_quote)
 print("Quote:", texto_quote)
 
